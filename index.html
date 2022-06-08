@@ -5,6 +5,9 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <link rel="stylesheet" href="dist/main.css">
+  <link rel="stylesheet" href="dist/header.css">
+  <link rel="stylesheet" href="dist/footer.css">
+  <link rel="stylesheet" href="dist/section.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -21,16 +24,34 @@
       </div>
     </div>
     <main class="page">
-      <section>
+      <section class="section">
         <div class="container">
-          <div class="block">
-            
+          <div class="section__block block">
+            <div class="block__column block__column--image">
+              <div class="block__imageContainer">
+                <img class="block__image"
+                  src="images/sean-o-KMn4VEeEPR8-unsplash_1_s6zmfh_ar_4_3,c_fill,g_auto__c_scale,w_538.jpg"
+                  alt="sea image">
+              </div>
+            </div>
+            <div class="block__column">
+              <h2 class="block__title">Lorem Ipsum</h2>
+              <p class="block__text">
+                Infinitely scalable, feature-rich and cloud-native data management and protection
+                for modern and legacy infrastructures and SaaS platforms, managed via a single app with no hardware
+                required.
+              </p>
+              <button class="block__button">Button</button>
+            </div>
           </div>
         </div>
       </section>
     </main>
     <div class="footer">
-      <div class="container"> 
+      <div class="container">
+        <div class="block__column">
+
+        </div>
         <p class="footer__copyright">Copyright ©2022</p>
       </div>
     </div>
