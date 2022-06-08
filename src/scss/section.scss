@@ -114,6 +114,8 @@
   background: rgba(0, 0, 0, 0.8);
   opacity: 0;
   visibility: hidden;
+  overflow-x: auto;
+  transition: all .4s;
 
   &__body {
     min-height: 100%;
@@ -128,6 +130,9 @@
     background: #ffffff;
     padding: 56px 95px;
     width: 920px;
+    transition: all .4s;
+    opacity: 0;
+    transform: perspective(600px) translate(0px, -100%) rotate(45deg);
   }
 
   &__close {
@@ -150,4 +155,17 @@
       font-weight: 700;
     }
   }
+}
+
+.popup.open {
+  opacity: 1;
+  visibility: visible;
+
+  .popup {
+    &__content {
+      opacity: 1;
+      transform: perspective(600px) translate(0px, 0px) rotate(0deg);
+    }
+  }
+
 }
