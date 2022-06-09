@@ -13,7 +13,7 @@ Here you can see my [demo](https://vov4ukz53.github.io/frontend-recruitment-task
 - JavaScript/ES6+
 
 ## How to use
-![how to use]()
+![how to use](https://i.ibb.co/kgjbhnc/rekrutacja.gif)
 
 ## Zadanie rekrutacyjne GravityGlobal na frontend developera
 
