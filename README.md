@@ -9,7 +9,7 @@ Here you can see my [demo](https://vov4ukz53.github.io/frontend-recruitment-task
 - BEM
 - Flexbox
 - Grid
-- CSS
+- CSS/SCSS
 - JavaScript/ES6+
 
 ## How to use
