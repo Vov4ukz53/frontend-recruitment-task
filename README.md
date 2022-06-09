@@ -1,5 +1,11 @@
-# Demo
+# Personal homepage
+This is a page where you can find all important information about me and my portfolio with added projects.
+
+## Demo
 Here you can see my [demo](https://vov4ukz53.github.io/frontend-recruitment-task/)
+
+## How to use
+![how to use](https://i.ibb.co/kgjbhnc/rekrutacja.gif)
 
 ## Zadanie rekrutacyjne GravityGlobal na frontend developera
 
