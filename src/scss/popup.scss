@@ -28,7 +28,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 30px 10px;
+    padding: 30px;
   }
 
   &__content {
@@ -36,9 +36,15 @@
     background: #ffffff;
     padding: 56px 95px;
     width: 920px;
+    max-height: 300px;
     transition: all .4s;
     opacity: 0;
     transform: perspective(600px) translate(0px, -100%) rotate(45deg);
+    overflow: auto;
+
+    @media(max-width: 992px) {
+      padding: 30px;
+    }
   }
 
   &__close {
@@ -46,12 +52,21 @@
     position: absolute;
     top: 40px;
     right: 40px;
+
+    @media(max-width: 992px) {
+      top: 20px;
+      right: 20px;
+    }
   }
 
   &__title {
     font-weight: 700;
     font-size: 42px;
     margin: 0px 0px 24px 0px;
+
+    @media(max-width: 992px) {
+      font-size: 30px;
+    }
   }
 
   &__text {
