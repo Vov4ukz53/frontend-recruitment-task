@@ -33,7 +33,7 @@ closePopup.forEach((item) => {
   item.addEventListener('click', () => {
     popup.forEach((item) => {
       item.classList.remove("open");
-    })
+    });
   });
 });
 
