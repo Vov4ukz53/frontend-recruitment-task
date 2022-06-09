@@ -1,5 +1,4 @@
-# Personal homepage
-This is a page where you can find all important information about me and my portfolio with added projects.
+# Recruitment task
 
 ## Demo
 Here you can see my [demo](https://vov4ukz53.github.io/frontend-recruitment-task/)
