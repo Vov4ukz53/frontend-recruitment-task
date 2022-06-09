@@ -7,19 +7,19 @@ const counter = document.querySelectorAll(".js-counter");
 const popupInfo = document.querySelectorAll(".js-info");
 
 for (let i = 0; i < popupButtons.length; i++) {
-  let count = 0;
+  const countKey = 'counter';
+  let count = JSON.parse(localStorage.getItem(countKey[i])) || [];
 
   popupButtons[i].addEventListener('click', () => {
     popup[i].classList.add("open");
     count++;
     counter[i].innerHTML = `${count} times`;
-    console.log(count);
+    localStorage.setItem(countKey[i], JSON.stringify(count));
 
     if (count > 5) {
       popupButtonReset[i].classList.add("visible");
       popupButtonReset[i].addEventListener('click', () => {
         count = 0;
-        console.log(popupButtonReset);
         popupInfo[i].classList.add("visible");
       });
     } else {
@@ -44,6 +44,8 @@ popup.forEach((item) => {
     }
   });
 });
+
+
 
 
 
