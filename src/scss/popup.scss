@@ -90,6 +90,11 @@
     cursor: pointer;
     padding: 5px 10px;
     border-radius: 3px;
+    transition: background .3s;
+
+    &:hover {
+      background: #595050;
+    }
   }
 
   &__info {
