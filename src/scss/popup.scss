@@ -79,7 +79,7 @@
 
   &__reset {
     &.visible {
-      display: block;
+      display: inline-block;
     }
 
     position: relative;
@@ -99,7 +99,7 @@
 
   &__info {
     &.visible {
-      display: block;
+      display: inline-block;
     }
 
     display: none;
