@@ -4,8 +4,16 @@ This is a page where you can find all important information about me and my port
 ## Demo
 Here you can see my [demo](https://vov4ukz53.github.io/frontend-recruitment-task/)
 
+## Used Technologies:
+- HTML5
+- BEM
+- Flexbox
+- Grid
+- CSS
+- JavaScript/ES6+
+
 ## How to use
-![how to use](https://i.ibb.co/kgjbhnc/rekrutacja.gif)
+![how to use]()
 
 ## Zadanie rekrutacyjne GravityGlobal na frontend developera
 
