@@ -1,4 +1,21 @@
-# Zadanie rekrutacyjne GravityGlobal na frontend developera
+# Personal homepage
+This is a page where you can find all important information about me and my portfolio with added projects.
+
+## Demo
+Here you can see my [demo](https://vov4ukz53.github.io/frontend-recruitment-task/)
+
+## Used Technologies:
+- HTML5
+- BEM
+- Flexbox
+- Grid
+- CSS
+- JavaScript/ES6+
+
+## How to use
+![how to use](https://i.ibb.co/kgjbhnc/rekrutacja.gif)
+
+## Zadanie rekrutacyjne GravityGlobal na frontend developera
 
 ## Informacje wstępne
 Zadanie jest przeznaczone na każdy poziom umiejętności developera, dzieli się na poszczególne zadania,
